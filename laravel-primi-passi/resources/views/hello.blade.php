@@ -13,6 +13,10 @@
         prova Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eius optio omnis non adipisci, tenetur, aliquid blanditiis ipsam
         consequuntur quas harum ratione itaque dolorum ex molestias maxime! Doloribus, inventore exercitationem.
     </p>
+    @foreach($arrays as $key => $value)
+
+    <p>{{$value}}</p>
+    @endforeach
 </body>
 
 </html>

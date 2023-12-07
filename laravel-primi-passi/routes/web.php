@@ -20,5 +20,10 @@ Route::get('/', function () {
 
 Route::get('/hello', function () {
     $prova = 'hello world';
-    return view('hello', compact('prova'));
+    $arrays = [
+        'nome' => 'karim',
+        'fraello' => 'beppe',
+        'cugino' => 'ugo'
+    ];
+    return view('hello', compact('prova', 'arrays'));
 });
