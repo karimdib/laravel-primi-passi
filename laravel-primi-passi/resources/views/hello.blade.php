@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Hello world</h1>
+    <h1>{{$prova}}</h1>
     <p>
         prova Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eius optio omnis non adipisci, tenetur, aliquid blanditiis ipsam
         consequuntur quas harum ratione itaque dolorum ex molestias maxime! Doloribus, inventore exercitationem.

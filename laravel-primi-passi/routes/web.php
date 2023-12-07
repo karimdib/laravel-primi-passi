@@ -19,5 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('/hello', function () {
-    return view('hello');
+    $prova = 'hello world';
+    return view('hello', compact('prova'));
 });
